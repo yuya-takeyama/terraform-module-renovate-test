@@ -8,7 +8,7 @@ module "foo" {
 }
 
 module "bar" {
-  source = "git@github.com:yuya-takeyama/terraform-module-bar.git?ref=v0.1.0"
+  source = "git@github.com:yuya-takeyama/terraform-module-bar.git?ref=v0.2.0"
 
   keepers = {
     bar = "BAR"
