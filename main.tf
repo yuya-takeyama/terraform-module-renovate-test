@@ -1,5 +1,5 @@
 module "foo" {
-  source = "git@github.com:yuya-takeyama/terraform-module-foo.git?ref=v0.3.0"
+  source = "git@github.com:yuya-takeyama/terraform-module-foo.git?ref=v0.3.1"
 
   cnt = 1
   triggers = {
